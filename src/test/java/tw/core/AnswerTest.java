@@ -56,4 +56,11 @@ public class AnswerTest {
 		assertThat(guess.getResult(), is("1A1B"));
 	}
 
+	@Test
+	public void should_return_4A0B_when_given_answer_are_totally_right() throws OutOfGuessCountException {
+		GuessResult guess = game.guess(Answer.createAnswer("1 2 3 4"));
+
+		assertThat(guess.getResult(), is("4A0B"));
+	}
+
 }
