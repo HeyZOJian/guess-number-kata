@@ -91,6 +91,20 @@ public class GameTest {
 	}
 
 	@Test
+	public void should_get_the_success_status_when_guess_less_than_6_time_and_have_not_right_answer() throws Exception {
+		// given
+
+		// when
+
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("1 2 3 4"));
+			//then
+			assertThat(game.checkStatus(),is("success"));
+	}
+
+	@Test
 	public void should_return_guess_history_when_get_guess_history_given_one_guess() throws OutOfGuessCountException {
 		// given
 		// when
