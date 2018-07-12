@@ -82,4 +82,11 @@ public class AnswerTest {
 		}
 	}
 
+	@Test
+	public void should_return_the_string_of_answer_when_use_toString(){
+	    Answer answer = Answer.createAnswer("1 2 3 4");
+	    assertThat(answer.toString(),is("1 2 3 4"));
+	}
+
+
 }

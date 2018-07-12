@@ -22,10 +22,16 @@
     <SUITE FILE_PATH="coverage/guess_number_kata$GameTest_should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong.ic" NAME="GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong Coverage Results" MODIFIED="1531388990856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest_should_.ic" NAME="AnswerTest.should_ Coverage Results" MODIFIED="1531389272406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest1.ic" NAME="AnswerTest1 Coverage Results" MODIFIED="1531390535114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest.ic" NAME="AnswerTest Coverage Results" MODIFIED="1531389734849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest_should_.ic" NAME="AnswerTest.should_ Coverage Results" MODIFIED="1531390169202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest_should_return_0A0B_when_given_answer_are_totally_wrong.ic" NAME="AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong Coverage Results" MODIFIED="1531390387793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest.ic" NAME="AnswerTest Coverage Results" MODIFIED="1531390856522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
   </component>
@@ -39,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="83" column="4" selection-start-line="83" selection-end-line="83" selection-end-column="4" />
+            <state relative-caret-position="2314">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,23 +57,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1690">
-              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="338">
+              <caret line="22" column="25" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
+      <file leaf-file-name="AnswerTest1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="260">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,30 +83,28 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <caret line="35" column="66" lean-forward="true" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
+      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            <state relative-caret-position="286">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -424,6 +429,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" />
       </list>
     </option>
@@ -550,10 +556,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../parking-lot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tw.core" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -594,6 +610,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AnswerTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest1" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="AnswerTest.should_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
@@ -607,6 +646,29 @@
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
       <option name="METHOD_NAME" value="should_" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_return_0A0B_when_given_answer_are_totally_wrong" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -631,52 +693,6 @@
       <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
-      <option name="METHOD_NAME" value="should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
-      <option name="METHOD_NAME" value="should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -726,18 +742,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AnswerTest" />
-      <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" />
-      <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
       <item itemvalue="JUnit.GameTest" />
       <item itemvalue="JUnit.AnswerTest.should_" />
+      <item itemvalue="JUnit.AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong" />
+      <item itemvalue="JUnit.AnswerTest1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AnswerTest" />
         <item itemvalue="JUnit.AnswerTest.should_" />
+        <item itemvalue="JUnit.AnswerTest1" />
+        <item itemvalue="JUnit.AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong" />
         <item itemvalue="JUnit.GameTest" />
-        <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
-        <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" />
       </list>
     </recent_temporary>
   </component>
@@ -756,39 +772,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 53m 37s.xml">
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 18h 12m 31s.xml">
       <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest - 2018.07.12 at 17h 53m 59s.xml">
-      <configuration name="AnswerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 54m 33s.xml">
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 18h 12m 47s.xml">
       <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest - 2018.07.12 at 17h 54m 39s.xml">
+    <history-entry file="AnswerTest - 2018.07.12 at 18h 12m 52s.xml">
       <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 59m 03s.xml">
+    <history-entry file="AnswerTest_should_return_0A0B_when_given_answer_are_totally_wrong - 2018.07.12 at 18h 13m 09s.xml">
+      <configuration name="AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest - 2018.07.12 at 18h 14m 02s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest1 - 2018.07.12 at 18h 15m 36s.xml">
+      <configuration name="AnswerTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest - 2018.07.12 at 18h 16m 23s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 18h 17m 57s.xml">
       <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 59m 11s.xml">
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 18h 18m 08s.xml">
       <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest - 2018.07.12 at 17h 59m 16s.xml">
-      <configuration name="AnswerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest - 2018.07.12 at 17h 59m 21s.xml">
-      <configuration name="AnswerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest - 2018.07.12 at 18h 01m 39s.xml">
-      <configuration name="AnswerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest - 2018.07.12 at 18h 02m 16s.xml">
+    <history-entry file="AnswerTest - 2018.07.12 at 18h 18m 14s.xml">
       <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3071000" />
+    <option name="totallyTimeSpent" value="4077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -800,12 +816,12 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5016112" side_tool="true" weight="0.32963374" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49838883" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838883" visible="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49946293" weight="0.32963374" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3093448" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.22717509" />
       <window_info anchor="bottom" id="Terminal" weight="0.32963374" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17561762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17561762" />
       <window_info anchor="bottom" id="Build" weight="0.32963374" />
       <window_info anchor="right" id="Database" />
       <window_info id="Learn" weight="0.32975295" />
@@ -892,21 +908,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -918,9 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,9 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="89" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="89" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,16 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1690">
-          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1260,24 +1251,55 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="35" column="66" lean-forward="true" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        <state relative-caret-position="286">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="83" column="4" selection-start-line="83" selection-end-line="83" selection-end-column="4" />
+        <state relative-caret-position="2314">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="22" column="25" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
