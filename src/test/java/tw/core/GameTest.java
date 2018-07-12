@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import tw.core.exception.OutOfGuessCountException;
 import tw.core.generator.AnswerGenerator;
 import tw.core.model.GuessResult;
+import tw.core.model.Record;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
@@ -88,4 +89,24 @@ public class GameTest {
 			//then
 		}
 	}
+
+	@Test
+	public void should_return_guess_history_when_get_guess_history_given_one_guess() throws OutOfGuessCountException {
+		// given
+		// when
+		GuessResult guessResult = game.guess(Answer.createAnswer("2 2 4 3"));
+		//then
+		assertThat(game.guessHistory().get(0), is(guessResult));
+	}
+
+	@Test
+	public void should_return_guess_history_when_get_guess_history_given_twice_guess() throws OutOfGuessCountException {
+		// given
+		// when
+		game.guess(Answer.createAnswer("4 3 2 1"));
+		GuessResult guessResult = game.guess(Answer.createAnswer("2 2 4 3"));
+		//then
+		assertThat(game.guessHistory().get(1), is(guessResult));
+	}
+
 }
