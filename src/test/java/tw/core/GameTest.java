@@ -4,11 +4,13 @@ package tw.core;/*
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tw.core.exception.OutOfGuessCountException;
 import tw.core.generator.AnswerGenerator;
 import tw.core.model.GuessResult;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+import static org.junit.jupiter.api.Assertions.fail;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -48,5 +50,23 @@ public class GameTest {
 		assertThat(guessResult.getResult(), is("4A0B"));
 	}
 
+	@Test
+	public void should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong() throws Exception {
+		// given
+
+		// when
+		try {
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			fail("should return fail");
+		} catch (OutOfGuessCountException e) {
+			//then
+		}
+	}
 
 }

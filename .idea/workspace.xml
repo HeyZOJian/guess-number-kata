@@ -536,7 +536,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct">
+  <component name="RunManager" selected="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -586,29 +586,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="AnswerTest.should_return_4A0B_when_given_answer_are_totally_right" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
@@ -622,6 +599,29 @@
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
       <option name="METHOD_NAME" value="should_return_4A0B_when_given_answer_are_totally_right" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" value="should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -694,19 +694,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" />
       <item itemvalue="JUnit.AnswerTest.should_return_4A0B_when_given_answer_are_totally_right" />
       <item itemvalue="JUnit.AnswerTest.should_return_0A4B_when_given_answer_are_totally_wrong_position" />
       <item itemvalue="JUnit.AnswerTest" />
       <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" />
+      <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
         <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" />
         <item itemvalue="JUnit.AnswerTest" />
         <item itemvalue="JUnit.AnswerTest.should_return_0A4B_when_given_answer_are_totally_wrong_position" />
         <item itemvalue="JUnit.AnswerTest.should_return_4A0B_when_given_answer_are_totally_right" />
-        <item itemvalue="JUnit.AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" />
       </list>
     </recent_temporary>
   </component>
