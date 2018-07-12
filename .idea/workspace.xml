@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c09dcc3b-b43d-4f98-9d8e-de555219ce29" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -14,6 +15,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1531389006496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest_should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong.ic" NAME="GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong Coverage Results" MODIFIED="1531388990856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest_should_.ic" NAME="AnswerTest.should_ Coverage Results" MODIFIED="1531389272406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest.ic" NAME="AnswerTest Coverage Results" MODIFIED="1531389734849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -25,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
-              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <caret line="83" column="4" selection-start-line="83" selection-end-line="83" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +54,11 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="1690">
+              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +66,8 @@
       <file leaf-file-name="GuessResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -54,8 +75,17 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -63,8 +93,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="392">
+              <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -393,6 +423,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" />
       </list>
     </option>
@@ -407,8 +438,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-73" />
-    <option name="y" value="-23" />
+    <option name="x" value="339" />
+    <option name="y" value="-19" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -519,10 +550,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parking-lot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -536,7 +567,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong">
+  <component name="RunManager" selected="JUnit.AnswerTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -563,7 +594,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_return_0A4B_when_given_answer_are_totally_wrong_position" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -575,7 +606,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_return_0A4B_when_given_answer_are_totally_wrong_position" />
+      <option name="METHOD_NAME" value="should_" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -586,7 +617,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_return_4A0B_when_given_answer_are_totally_right" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -597,9 +628,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_return_4A0B_when_given_answer_are_totally_right" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -694,19 +725,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_return_4A0B_when_given_answer_are_totally_right" />
-      <item itemvalue="JUnit.AnswerTest.should_return_0A4B_when_given_answer_are_totally_wrong_position" />
       <item itemvalue="JUnit.AnswerTest" />
       <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" />
       <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
+      <item itemvalue="JUnit.GameTest" />
+      <item itemvalue="JUnit.AnswerTest.should_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerTest" />
+        <item itemvalue="JUnit.AnswerTest.should_" />
+        <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_sextic_and_all_answer_are_wrong" />
         <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct" />
-        <item itemvalue="JUnit.AnswerTest" />
-        <item itemvalue="JUnit.AnswerTest.should_return_0A4B_when_given_answer_are_totally_wrong_position" />
-        <item itemvalue="JUnit.AnswerTest.should_return_4A0B_when_given_answer_are_totally_right" />
       </list>
     </recent_temporary>
   </component>
@@ -725,30 +756,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InputValidatorTest - 2018.07.12 at 15h 22m 04s.xml">
-      <configuration name="InputValidatorTest" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 53m 37s.xml">
+      <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest - 2018.07.12 at 15h 22m 18s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
+    <history-entry file="AnswerTest - 2018.07.12 at 17h 53m 59s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_return_0A0B_when_given_answer_are_totally_wrong - 2018.07.12 at 15h 30m 38s.xml">
-      <configuration name="AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 54m 33s.xml">
+      <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_return_1A0B_when_given_answer_one_right_and_other_are_wrong - 2018.07.12 at 15h 34m 39s.xml">
-      <configuration name="AnswerTest.should_return_1A0B_when_given_answer_one_right_and_other_are_wrong" configurationId="JUnit" />
+    <history-entry file="AnswerTest - 2018.07.12 at 17h 54m 39s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_return_0A1B_when_given_answer_are_one_wrong_postion_and_other_totally_wrong - 2018.07.12 at 15h 36m 06s.xml">
-      <configuration name="AnswerTest.should_return_0A1B_when_given_answer_are_one_wrong_postion_and_other_totally_wrong" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 59m 03s.xml">
+      <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong - 2018.07.12 at 17h 32m 13s.xml">
-      <configuration name="AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_ - 2018.07.12 at 17h 59m 11s.xml">
+      <configuration name="AnswerTest.should_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_return_4A0B_when_given_answer_are_totally_right - 2018.07.12 at 17h 33m 31s.xml">
-      <configuration name="AnswerTest.should_return_4A0B_when_given_answer_are_totally_right" configurationId="JUnit" />
+    <history-entry file="AnswerTest - 2018.07.12 at 17h 59m 16s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest - 2018.07.12 at 17h 59m 21s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest - 2018.07.12 at 18h 01m 39s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest - 2018.07.12 at 18h 02m 16s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1347000" />
+    <option name="totallyTimeSpent" value="3071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -762,9 +802,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49838883" visible="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49946293" weight="0.32963374" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3093448" />
       <window_info anchor="bottom" id="Terminal" weight="0.32963374" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17561762" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17561762" />
       <window_info anchor="bottom" id="Build" weight="0.32963374" />
       <window_info anchor="right" id="Database" />
       <window_info id="Learn" weight="0.32975295" />
@@ -774,30 +815,30 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838883" weight="0.32963374" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17561762" />
-      <window_info id="Learn" order="4" weight="0.32975295" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24973147" />
+      <window_info id="Learn" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info id="Designer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Designer" order="5" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32963374" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5016112" side_tool="true" weight="0.32963374" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49946293" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Build" order="9" weight="0.32963374" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32963374" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946293" weight="0.32963374" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32963374" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
@@ -852,16 +893,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -887,6 +918,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,31 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1175,6 +1188,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="89" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="89" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,24 +1222,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="24" />
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="1690">
+          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <caret line="83" column="4" selection-start-line="83" selection-end-line="83" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

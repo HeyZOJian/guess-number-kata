@@ -10,6 +10,7 @@ import tw.core.model.GuessResult;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.fail;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -68,6 +69,17 @@ public class AnswerTest {
 		GuessResult guess = game.guess(Answer.createAnswer("4 3 2 1"));
 
 		assertThat(guess.getResult(), is("0A4B"));
+	}
+
+	@Test
+	public void should_throw_excpetion_when_the_answer_are_unvalidate() throws AnswerFormatIncorrectException {
+		Answer answer = Answer.createAnswer("4 3 2 1 2");
+		try {
+			answer.validate();
+			fail("should throw AnswerFormatIncorrectException");
+		} catch (AnswerFormatIncorrectException e) {
+
+		}
 	}
 
 }
