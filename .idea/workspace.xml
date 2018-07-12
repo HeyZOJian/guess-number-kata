@@ -459,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnswerTest.should_return_0A1B_when_given_answer_are_one_wrong_postion_and_other_totally_wrong">
+  <component name="RunManager" selected="JUnit.AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -532,6 +532,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
@@ -544,29 +567,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="InputValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.InputValidatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -617,19 +617,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.InputValidatorTest" />
       <item itemvalue="JUnit.GameTest" />
       <item itemvalue="JUnit.AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong" />
       <item itemvalue="JUnit.AnswerTest.should_return_1A0B_when_given_answer_one_right_and_other_are_wrong" />
       <item itemvalue="JUnit.AnswerTest.should_return_0A1B_when_given_answer_are_one_wrong_postion_and_other_totally_wrong" />
+      <item itemvalue="JUnit.AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerTest.should_return_1A1B_when_given_answer_are_one_right_and_one_wrong_position_and_other_totally_wrong" />
         <item itemvalue="JUnit.AnswerTest.should_return_0A1B_when_given_answer_are_one_wrong_postion_and_other_totally_wrong" />
         <item itemvalue="JUnit.AnswerTest.should_return_1A0B_when_given_answer_one_right_and_other_are_wrong" />
         <item itemvalue="JUnit.AnswerTest.should_return_0A0B_when_given_answer_are_totally_wrong" />
         <item itemvalue="JUnit.GameTest" />
-        <item itemvalue="JUnit.InputValidatorTest" />
       </list>
     </recent_temporary>
   </component>
