@@ -16,28 +16,28 @@ import static org.mockito.Mockito.when;
 
 public class GameTest {
 
-    private final Answer actualAnswer = Answer.createAnswer("1 2 3 4");
-    private Game game;
+	private final Answer actualAnswer = Answer.createAnswer("1 2 3 4");
+	private Game game;
 
-    @BeforeEach
-    public void setUp() throws Exception {
-        AnswerGenerator answerGenerator = mock(AnswerGenerator.class);
-        when(answerGenerator.generate()).thenReturn(actualAnswer);
-        game = new Game(answerGenerator);
-    }
+	@BeforeEach
+	public void setUp() throws Exception {
+		AnswerGenerator answerGenerator = mock(AnswerGenerator.class);
+		when(answerGenerator.generate()).thenReturn(actualAnswer);
+		game = new Game(answerGenerator);
+	}
 
 
-    @Test
-    public void should_get_the_success_status_when_guess_input_is_correct() throws Exception {
+	@Test
+	public void should_get_the_success_status_when_guess_input_is_correct() throws Exception {
 
-        //given
+		//given
 //        excuteSuccessGuess();
-        GuessResult guess = game.guess(Answer.createAnswer("1 2 3 4"));
-        //when
-        //then
-        assertThat(guess.getResult(), is("4A0B"));
+		GuessResult guess = game.guess(Answer.createAnswer("1 2 3 4"));
+		//when
+		//then
+		assertThat(guess.getResult(), is("4A0B"));
 
-    }
+	}
 
 	@Test
 	public void should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct() throws Exception {
@@ -69,4 +69,23 @@ public class GameTest {
 		}
 	}
 
+	@Test
+	public void should_get_the_fail_status_when_guess_more_than_sextic_and_all_answer_are_wrong() throws Exception {
+		// given
+
+		// when
+		try {
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			game.guess(Answer.createAnswer("2 2 4 3"));
+			fail("should return fail");
+		} catch (OutOfGuessCountException e) {
+			//then
+		}
+	}
 }
