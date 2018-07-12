@@ -37,5 +37,16 @@ public class GameTest {
 
     }
 
+	@Test
+	public void should_get_the_success_status_when_guess_twice_and_the_last_one_is_correct() throws Exception {
+		// given
+
+		// when
+		GuessResult guessResult = game.guess(Answer.createAnswer("1 2 4 3"));
+		guessResult = game.guess(Answer.createAnswer("1 2 3 4"));
+		//then
+		assertThat(guessResult.getResult(), is("4A0B"));
+	}
+
 
 }
