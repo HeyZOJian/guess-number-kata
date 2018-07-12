@@ -35,4 +35,11 @@ public class AnswerTest {
 		assertThat(guess.getResult(), is("0A0B"));
 	}
 
+	@Test
+	public void should_return_1A0B_when_given_answer_one_right_and_other_are_wrong() throws OutOfGuessCountException {
+		GuessResult guess = game.guess(Answer.createAnswer("1 6 7 8"));
+
+		assertThat(guess.getResult(), is("1A0B"));
+	}
+
 }
